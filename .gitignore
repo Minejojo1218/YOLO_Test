@@ -1,0 +1,43 @@
+﻿# ---------- 构建产物 ----------
+build/
+debug/
+release/
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.dll
+
+# ---------- Qt Creator / qmake ----------
+*.user
+*.user.*
+.qmake.stash
+.qtc_clangd/
+Makefile
+Makefile.*
+
+# ---------- 模型权重与导出 ----------
+*.pt
+*.onnx
+*.engine
+*.tflite
+
+# ---------- 训练 / 推理输出 ----------
+runs/
+datasets/
+predict/
+preprocessed/
+backup/
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+
+# ---------- 系统 / 编辑器 ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
