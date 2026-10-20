@@ -113,7 +113,7 @@ TrainingPage::TrainingPage(ProjectManager *project, Database *db, QWidget *paren
     m_mixup->setValue(0.0);
     m_mixup->setToolTip("MixUp 混样增强概率");
 
-    // ---- 数据增强（参考 YOLO Platform 的增强参数表） ----
+    // ---- 数据增强（参考 YOLO 开源） ----
     auto makeAugSpin = [this](double lo, double hi, double step, int decimals, double val) {
         QDoubleSpinBox *s = new QDoubleSpinBox(this);
         s->setRange(lo, hi);

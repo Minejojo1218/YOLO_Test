@@ -2,7 +2,7 @@
 
 #include <QString>
 
-// 深色现代风格（参考 YOLO Platform 界面）
+// 深色现代风格（参考 YOLO 开源）
 namespace Theme {
 
 inline QString dark()
